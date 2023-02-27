@@ -15,9 +15,9 @@ def load_data(nrows):
     data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
     return data
 
-data_load_state = st.text('Loading cicle nyc data...')
-data = load_data(1000)
-data_load_state.text("Done! (using st.cache)")
+data_load_state = st.text('Cargando datos')
+data = load_data(500)
+data_load_state.text("Listo!")
 
 if st.sidebar.checkbox('Show raw data'):
     st.subheader('Raw data')
