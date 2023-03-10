@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('App de Netflix')
+st.title('A01235880_Jose_Guadalupe_Mireles_Rosales - App de Netflix')
 
 DATE_COLUMN = 'released'
 DATA_URL = ('movies.csv')
